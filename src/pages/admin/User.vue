@@ -1,6 +1,7 @@
 <script setup>
 import { ref, reactive } from 'vue';
 import HeaderComponent from '@/components/HeaderComponent.vue';
+import  BaseInput from "@/components/InputComponent.vue";
 
 const users = ref([
   { id: 1, email: 'john@example.com', role: 'admin', phone: '213123', isSuperUser: true },
@@ -154,4 +155,7 @@ const deleteUser = () => {
       </div>
     </div>
   </div>
+
+
+
 </template>

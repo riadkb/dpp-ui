@@ -5,6 +5,7 @@ import Brands from "../pages/admin/Brands.vue"; // ✅ Adding Brands Page
 import BrandDetail from "../pages/admin/BrandDetail.vue"; // New Page
 import User from "../pages/admin/User.vue"; // New Page
 import Wallet from "../pages/admin/Wallet.vue"; // New Page
+import Product from "../pages/admin/Product.vue"; // New Page
 
 const routes = [
     {
@@ -15,6 +16,7 @@ const routes = [
           { path: "users", name: "Users", component: User },
           { path: "brands", name: "Brands", component: Brands },
           { path: "wallets", name: "Wallets", component: Wallet },
+          { path: "products", name: "Products", component: Product },
           { path: "brands/:id", name: "BrandDetail", component: BrandDetail }, // New Route
           { path: "", redirect: "/admin/dashboard" }, // ✅ Default to dashboard
         ],

@@ -28,6 +28,7 @@ export default {
         { name: 'Brands', to: '/admin/brands'},
         { name: 'Users', to: '/admin/users'},
         { name: 'Wallets', to: '/admin/wallets'},
+        { name: 'Products', to: '/admin/products'},
       ],
     };
   },

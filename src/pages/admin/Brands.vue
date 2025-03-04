@@ -13,7 +13,11 @@
           
         </div>
         <!-- Add Brand Button -->
-        <HeaderComponent title="Brands" buttonLabel="Add Brand" :onButtonClick="openModal" />
+        <HeaderComponent 
+          title="Brands" 
+          buttonLabel="Add Brand" 
+          @button-click="openModal('add')" 
+        />
 
       <!-- Brand Cards Grid -->
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
